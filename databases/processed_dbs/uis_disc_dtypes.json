@@ -1,0 +1,1 @@
+{"survival_time": "int64", "survival_status": "bool", "age": "category", "beck": "category", "hercoc": "category", "ivhx": "category", "ndrugtx": "category", "race": "category", "treatment": "category", "site": "category", "los": "category"}

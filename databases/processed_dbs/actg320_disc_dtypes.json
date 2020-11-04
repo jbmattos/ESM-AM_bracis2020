@@ -1,0 +1,1 @@
+{"survival_time": "int64", "survival_status": "bool", "tx": "category", "txgrp": "category", "strat2": "category", "sex": "category", "raceth": "category", "ivdrug": "category", "hemophil": "category", "karnof": "category", "cd4": "category", "priorzdv": "category", "age": "category"}

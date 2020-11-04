@@ -1,0 +1,1 @@
+{"survival_time": "int64", "survival_status": "bool", "group": "category", "detec": "category", "cell-type": "category", "stage-1": "category", "stage-2": "category", "stage-3": "category", "stage-4": "category", "op": "category"}

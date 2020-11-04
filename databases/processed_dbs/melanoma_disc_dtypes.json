@@ -1,0 +1,1 @@
+{"survival_time": "int64", "survival_status": "bool", "sex": "category", "age": "category", "op-year": "category", "tumor-th": "category", "ulceration": "category"}

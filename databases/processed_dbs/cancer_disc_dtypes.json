@@ -1,0 +1,1 @@
+{"survival_time": "int64", "survival_status": "bool", "age": "category", "sex": "category", "ph-ecog": "category", "ph-karno": "category", "pat-karno": "category", "meal-cal": "category", "wt-loss": "category"}

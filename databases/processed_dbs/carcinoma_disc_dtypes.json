@@ -1,0 +1,1 @@
+{"survival_time": "int64", "survival_status": "bool", "sex": "category", "treatment": "category", "grade": "category", "age": "category", "condition": "category", "site": "category", "t-staging": "category", "n-staging": "category"}

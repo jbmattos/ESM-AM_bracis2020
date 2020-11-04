@@ -1,0 +1,1 @@
+{"survival_time": "int64", "survival_status": "bool", "age": "category", "sex": "category", "hgb": "category", "creat": "category", "mspike": "category", "ptime": "category", "pstat": "category"}

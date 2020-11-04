@@ -1,0 +1,1 @@
+{"survival_time": "int64", "survival_status": "bool", "age": "category", "gender": "category", "hr": "category", "sysbp": "category", "diasbp": "category", "bmi": "category", "cvd": "category", "afb": "category", "sho": "category", "chf": "category", "av3": "category", "miord": "category", "mitype": "category", "los": "category"}
