@@ -1,0 +1,1 @@
+{"_emptCols": [], "_dictMV": {}, "_colsNot2use": ["pctime"], "_survivalAttr": {"survivalTime_name": "futime", "survivalEvent_name": "death"}, "_statusRepr": {"censValue": [], "eventValue": []}, "_nan2replace": {"pcdx": "not-prog"}, "_colsType": {"sex": "category", "pcdx": "category"}, "_cols2disc": ["age", "dxyr", "alb", "creat", "hgb", "mspike"]}

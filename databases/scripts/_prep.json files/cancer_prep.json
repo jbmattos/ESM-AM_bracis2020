@@ -1,0 +1,1 @@
+{"_emptCols": [], "_dictMV": {}, "_colsNot2use": [], "_survivalAttr": {"survivalTime_name": "time", "survivalEvent_name": "status"}, "_statusRepr": {"censValue": [1], "eventValue": [2]}, "_nan2replace": {}, "_colsType": {"sex": "category", "ph-ecog": "category"}, "_cols2disc": ["age", "ph-karno", "pat-karno", "meal-cal", "wt-loss"]}

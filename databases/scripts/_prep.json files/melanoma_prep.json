@@ -1,0 +1,1 @@
+{"_emptCols": ["Unnamed: 7"], "_dictMV": {}, "_colsNot2use": [], "_survivalAttr": {"survivalTime_name": "survival", "survivalEvent_name": "status"}, "_statusRepr": {"censValue": [2, 3], "eventValue": [1]}, "_nan2replace": {}, "_colsType": {"ulceration": "bool", "sex": "category"}, "_cols2disc": ["age", "op-year", "tumor-th"]}

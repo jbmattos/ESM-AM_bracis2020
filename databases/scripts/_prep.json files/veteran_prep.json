@@ -1,0 +1,1 @@
+{"_emptCols": [], "_dictMV": {}, "_colsNot2use": [], "_survivalAttr": {"survivalTime_name": "survival", "survivalEvent_name": "status"}, "_statusRepr": {"censValue": [], "eventValue": []}, "_nan2replace": {}, "_colsType": {"treat": "category", "cell-type": "category", "pt": "category"}, "_cols2disc": ["karno", "mfd", "age"]}

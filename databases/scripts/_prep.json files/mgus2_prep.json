@@ -1,0 +1,1 @@
+{"_emptCols": [], "_dictMV": {}, "_colsNot2use": [], "_survivalAttr": {"survivalTime_name": "futime", "survivalEvent_name": "status"}, "_statusRepr": {"censValue": [], "eventValue": []}, "_nan2replace": {}, "_colsType": {"pstat": "bool", "sex": "category"}, "_cols2disc": ["age", "hgb", "creat", "mspike", "ptime"]}

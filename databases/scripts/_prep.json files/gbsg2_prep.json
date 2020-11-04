@@ -1,0 +1,1 @@
+{"_emptCols": [], "_dictMV": {}, "_colsNot2use": [], "_survivalAttr": {"survivalTime_name": "time", "survivalEvent_name": "status"}, "_statusRepr": {"censValue": [], "eventValue": []}, "_nan2replace": {}, "_colsType": {"horTh": "category", "menostat": "category", "tgrade": "category"}, "_cols2disc": ["age", "tsize", "pnodes", "progrec", "estrec"]}
