@@ -13,16 +13,16 @@ usage: data_preprocessing.py [-h] (--fl FL | --fd FD) [--jfl JFL | --jfd JFD]
 Script to perform data preprocessing and discretization [default].
 
 optional arguments:
-  -h, --help  show this help message and exit
-  --fl FL     File path
-  --fd FD     Folder path: executes the script to all files in the folder (or
+<\br>  -h, --help  show this help message and exit
+<\br>  --fl FL     File path
+<\br>  --fd FD     Folder path: executes the script to all files in the folder (or
               the ones defined by extension --ext)
-  --jfl JFL   Json preprocessing file path: if not provided, uses the file
+<\br>  --jfl JFL   Json preprocessing file path: if not provided, uses the file
               folder
-  --jfd JFD   Folder for json preprocessing files: if not provided, uses the
+<\br>  --jfd JFD   Folder for json preprocessing files: if not provided, uses the
               file folder
-  --ext EXT   Extension of the files to process
-  --s S       Save path: if not provided, saves processed data in the file
+<\br>  --ext EXT   Extension of the files to process
+<\br>  --s S       Save path: if not provided, saves processed data in the file
               folder
-  --d D       Discretization [bool]: whether to perform or not
-  --p P       Preprocessing [bool]: whether to perform or not
+<\br>  --d D       Discretization [bool]: whether to perform or not
+<\br>  --p P       Preprocessing [bool]: whether to perform or not
