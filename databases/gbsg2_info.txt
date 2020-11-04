@@ -1,0 +1,44 @@
+
+==== GBSG2 DATASET (gbsg2.csv)
+
+data taken from: lifelines.dataset (https://lifelines.readthedocs.io/en/latest/lifelines.datasets.html#)
+
+reference: Schumacher, M., Bastert, G., Bojar, H., Huebner, K., Olschewski, M., Sauerbrei, W., Schmoor, C., Beyerle, C., Neumann, R.L. and Rauschecker, H.F., 1994.
+			Randomized 2 x 2 trial evaluating hormonal treatment and the duration of chemotherapy in node-positive breast cancer patients.
+			German Breast Cancer Study Group. Journal of Clinical Oncology, 12(10), pp.2086-2093.
+			(https://ascopubs.org/doi/abs/10.1200/jco.1994.12.10.2086)
+			(.arff file source: https://github.com/sebp/scikit-survival/blob/master/sksurv/datasets/data/GBSG2.arff)
+			(description source: https://rdrr.io/cran/TH.data/man/GBSG2.html)
+			
+
+
+In 1984, the German Breast Cancer Study Group (GBSG) started a multicenter randomized clinical trial to compare the effectiveness
+of three versus six cycles of 500 mg/m2 cyclophosphamide, 40 mg/m' methotrexate, and 600 mg/m2 flourouracil (CMF)
+on day 1 and 8 starting perioperatively with or without tamoxifen (TAM) (3 x 10 mg/d for 2 years).
+The aim of the trial was to compare recurrence-free and overall survival between the different treatment modalities.
+This data frame contains the observations of 686 women.
+
+
+#		VARIABLE			DESCRIPTION                             CODES/VALUES
+
+1 		horTh				Hormonal therapy						no/yes
+
+2		age 				Age of the patients 					in years
+
+3		menostat			Menopausal status						pre= premenopausal
+																	post= postmenopausal
+																	
+4		tsize				Tumor size 								in mm
+
+5		tgrade				Tumor grade								levels I < II < III
+
+6		pnodes				Number of positive nodes				integer
+
+7		progrec				Progesterone receptor 					in fmol
+
+8		estrec				Estrogen receptor 						in fmol
+
+9		time 				recurrence free survival time 			in days
+
+10 		status 				censoring indicator 					0- censored
+																	1- event

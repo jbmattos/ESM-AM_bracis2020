@@ -1,0 +1,33 @@
+
+==== BREAST-CANCER DATASET (breast-cancer.csv)
+
+data taken from: https://github.com/sebp/scikit-survival/blob/master/sksurv/datasets/data/breast_cancer_GSE7390-metastasis.arff
+
+source: Strong Time Dependence of the 76-Gene Prognostic Signature for 
+		Node-Negative Breast Cancer Patients in the TRANSBIG Multicenter Independent Validation Series
+		(https://clincancerres.aacrjournals.org/content/13/11/3207)
+		(data source: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE7390 / data description file "GSE7390_transbig2006affy_README.txt")
+		
+		
+
+Demographics file containing the clinical information for 198 untreated patients of the TRANSBIG validation study. 
+The clinical information are the following:
+
+
+#		VARIABLE					DESCRIPTION						CODES/VALUES			
+1		age							patient age 					in years
+
+2		size						Diameter of tumor 				in mm
+
+3		grade						Histopathological grading		1=well differentiated
+																	2=intermediate	
+																	3=poorly differentiated
+
+4		er							Estrogen receptors				0 = negative
+																	1 = positive
+
+5		t_tdm						Time to distant metastasis 		days
+
+6		e_tdm						Indicator for time to 			1 = event
+									distant metastasis 				0 = censoring
+7-83	gene expressions

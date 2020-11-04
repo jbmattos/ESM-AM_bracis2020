@@ -1,0 +1,58 @@
+
+==== CLINICAL TRIAL IN THE TREATMENT OF CARCINOMA OF THE OROPHARYNX DATASET (.csv)
+
+data taken from: ftp://ftp.wiley.com/public/sci_tech_med/failure_time/ ("failure_time.zip/Data Set II")
+
+source: The Statistical Analysis of Failure Time Data, 2nd Edition
+		John D. Kalbfleisch, Ross L. Prentice
+		(https://www.wiley.com/en-us/The+Statistical+Analysis+of+Failure+Time+Data%2C+2nd+Edition-p-9780471363576)
+
+
+
+Book description:
+n = 195
+Source: Radiation Therapy Oncology Group
+
+
+#	VARIABLE			CODES/VALUES
+
+1	sex					1= male 
+						2= female
+							
+2	treatment			1= standard 
+						2= test
+						
+3	grade				1= well differentiated
+						2= moderately differentiated
+						3= poorly differentiated
+							
+4	age					in years at time of diagnosis
+
+5	condition			1= no disability
+						2= restricted work
+						3= requires assistance with self care
+						4= bed confined
+							
+6	site				1= faucial arch
+						2= tonsillar fossa
+						3= porterior pillar
+						4= pharyngeal tongue
+						5= porterior wall
+							
+7	t-staging			1= primary tumor measuring 2 cm or less in largest diameter
+						2= primary tumor measuring 2 to 4 cm in largest diameter, minimal infiltration in depth
+						3= primary tumor measuring more than 4 cm in largest diameter;
+						4= massive invasive tumor
+							
+8	n-staging			0= no clinical evidence of node metastases
+						1= single positive node 3 cm or less in diameter, not fixed
+						2= single positive node more than 3 cm in diameter, not fixed
+						3= multiple positive nodes or fixed positive nodes
+							
+9	status				0= censored 
+						1= dead
+							
+10	survival			in days from day of diagnosis
+
+
+obs.: pandas-untreaceble missing values given by '9'

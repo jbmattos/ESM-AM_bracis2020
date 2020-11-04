@@ -1,0 +1,51 @@
+
+==== LUNG DATASET (lung.csv)
+
+data taken from: https://www.stats.ox.ac.uk/pub/datasets/csb/ ("ch15.dat")
+				 (description from "ch15.txt" file)
+
+source: Case Studies In Biometry
+		by Nicholas Lange, Louise Ryan and Lynne Billard, David Brillinger, Loveday Conquest, Joel Greenhouse
+		(1994) Wiley, 0-471-58925-X
+
+
+		
+Case Studies In Biometry, Chapter 15.
+Early Lung Cancer Detection Studies
+
+
+#		VARIABLE			DESCRIPTION						CODES/VALUES
+
+1		group				Group       					0 - Control
+															1 - Study
+															
+2		detec				Means of Detection 				0 - Routine Cytology
+															1 - Routine X-ray
+															2 - Both X-ray and Cytology
+															3 - Interval
+															
+3		cell-type			Cell Type    					0 - Epidermoid
+															1 - Adenocarcinoma
+															2 - Large Cell
+															3 - Oat Cell
+															4 - Other
+															
+4		stage-1        		Overall stage 					{1,2,3}
+
+5		stage-2				Tumor 							{1,2,3}
+
+6		stage-3				Lymph nodes						{0,1,2}
+
+7		stage-4				Distant metastases				{0,1}
+
+8 		op					Operated     					0 - no
+															1 - yes
+							
+9		suvival				Days from detection to 			Integer
+							last date known alive
+							
+10		status				Survival Category 				0 - Alive,
+															1 - Dead of lung cancer
+															2 - Dead of other causes
+
+Obs.: pandas-untraceable missing values given by '.'

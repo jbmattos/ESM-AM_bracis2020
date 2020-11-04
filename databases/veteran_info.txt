@@ -1,0 +1,44 @@
+
+==== VETERANS ADMINISTRATION LUNG CANCER (veteran.csv)
+
+data taken from: http://lib.stat.cmu.edu/datasets/veteran
+				 (description taken from link above)
+				
+source:	The Statistical Analysis of Failure Time Data, 2nd Edition - John D. Kalbfleisch, Ross L. Prentice
+		(book: https://www.wiley.com/en-us/The+Statistical+Analysis+of+Failure+Time+Data%2C+2nd+Edition-p-9780471363576)
+		(data: ftp://ftp.wiley.com/public/sci_tech_med/failure_time/ "failure_time.zip/Data Set I") 
+		
+also available:	http://www.stat.rice.edu/~sneeley/STAT553/Datasets/survivaldata.txt
+				https://github.com/sebp/scikit-survival/blob/master/sksurv/datasets/data/veteran.arff
+
+
+Patients with advanced, inoperable lung cancer were treated with chemotherapy. 
+N = 137 
+Veteran's Administration Lung Cancer Trial 
+Taken from Kalbfleisch and Prentice, pages 223-224 
+
+
+#	VARIABLE	DESCRIPTION					CODES/VALUES
+
+1	treat 		Type of treatment 			1=standard 
+											2=test
+											
+2	cell-type	Cell type					1=squamous
+											2=small cell
+											3=adeno
+											4=large
+											
+3 	survival 	Time until death			in days
+
+4 	status 		Death indicator 			0=censored
+											1=dead
+											
+5	karno 		Karnofsky score				0(worse) - 100(best) 
+				(general performance) 
+				
+6	mfd			Months from diagnosis 		in months
+
+7	age 		Age of patient				in years 
+
+8	pt			Prior therapy				0=no
+											10=yes 

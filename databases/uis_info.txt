@@ -1,0 +1,56 @@
+
+
+==== UIS DATASET (uis.csv)
+
+data taken from: ftp://ftp.wiley.com/public/sci_tech_med/survival/ ("Second-Edition Data.zip")
+
+source: Hosmer, D.W. and Lemeshow, S. and May, S. (2008) 
+		Applied Survival Analysis: Regression Modeling of Time to Event Data,
+		Second Edition, John Wiley and Sons Inc., New York, NY
+		(https://www.wiley.com/en-us/Applied+Survival+Analysis%3A+Regression+Modeling+of+Time+to+Event+Data%2C+2nd+Edition-p-9780471754992)
+
+
+
+Description of the variables in the UIS Study described in Table 1.3
+of Hosmer, D.W. and Lemeshow, S. and May, S. (2008) Applied Survival
+Analysis: Regression Modeling of Time to Event Data: Second Edition,
+John Wiley and Sons Inc., New York, NY
+n = 628
+
+
+#	VARIABLE	DESCRIPTION					CODES/VALUES
+
+1	age         Age at Enrollment          in years
+
+2	beck     	Beck Depression Score       0.000 - 54.000
+				at Admission
+					
+3	hercoc    	Heroin/Cocaine use 			1 = Heroin & Cocaine
+				during 3 months prior 		2 = Heroin only
+				to admission     			3 = Cocaine Only
+                                            4 = Neither Heroin nor Cocaine
+												
+4	ivhx      	IV drug use history at      1 = Never
+				admission                   2 = Previous
+                                            3 = Recent
+												
+5	ndrugtx    	Number of prior drug        0 - 40
+				treatments
+					
+6	race      	subject's Race              0 = White
+                                            1 = Other
+												
+7	treatment   Treatment randomization     0 = Short
+				assignment                  1 = Long
+					
+8	site        Treatment site              0 = A
+                                            1 = B
+												
+9	los         Length of treatment         in days
+				(measured from admission)
+					
+10	time        Time to return to drug use	in days
+				(measured from admission)
+					
+11	censor      Returned to drug use        1 = Returned to Drug Use
+                                            0 = Otherwise

@@ -1,0 +1,41 @@
+
+==== CANCER DATASET (cancer.csv)
+
+data taken from: https://vincentarelbundock.github.io/Rdatasets/datasets.html
+				(description in: https://vincentarelbundock.github.io/Rdatasets/doc/survival/cancer.html)
+data source: R-package
+			
+			
+
+Survival in patients with advanced lung cancer from the North Central Cancer Treatment Group. 
+Performance scores rate how well the patient can perform usual daily activities.
+Source: Terry Therneau
+References: Loprinzi CL. Laurie JA. Wieand HS. Krook JE. Novotny PJ. Kugler JW. Bartel J. Law M. Bateman M. Klatt NE. et al.
+			Prospective evaluation of prognostic variables from patient-completed questionnaires.
+			North Central Cancer Treatment Group. Journal of Clinical Oncology. 12(3):601-7, 1994.
+
+
+#		VARIABLE			DESCRIPTION							CODES/VALUES
+
+1		time				Survival time 						in days
+
+2		status				censoring status 					1=censored
+																2=dead
+
+3		age					Age 								in years
+
+4		sex					Gender								1=Male
+																2=Female
+																	
+5		ph-ecog				ECOG performance score 				0-5 
+							(0=good, 5=dead)
+																	
+6		ph-karno			Karnofsky performance score 		0(bad) - 100(good)
+							(rated by physician)
+							
+7		pat-karno			Karnofsky performance score 		0(bad) - 100(good)
+							(rated by patient)
+
+8		meal-cal			Calories consumed at meals			cal
+
+9		wt-loss				Weight loss in last six months

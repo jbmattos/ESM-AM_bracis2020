@@ -1,0 +1,53 @@
+
+==== MONOCLONAL GAMMOPATHY 2 DATASET (mgus2.csv)
+
+data taken from: https://vincentarelbundock.github.io/Rdatasets/datasets.html ("mgus2")
+				(description source: https://vincentarelbundock.github.io/Rdatasets/doc/survival/mgus2.html)
+
+source: R-package
+
+reference: Kyle RA. 
+		   “Benign” monoclonal gammopathy-after 20 to 35 years of follow-up. 
+		   Mayo Clin Proc. 1993;68(1):26–36
+		   (https://www.sciencedirect.com/science/article/abs/pii/S0025619612600159)
+
+
+
+Natural history of 1341 sequential patients with monoclonal gammopathy of undetermined significance (MGUS).
+Details: This is a larger follow-on study of the condition also found in data set mgus.
+
+Source: Mayo Clinic data courtesy of Dr. Robert Kyle. 
+All patient identifiers have been removed, age rounded to the nearest year, and follow-up times rounded to the nearest month.
+
+References:
+R. Kyle, T. Therneau, V. Rajkumar, J. Offord, D. Larson, M. Plevak, and L. J. Melton III, 
+A long-terms study of prognosis in monoclonal gammopathy of undertermined significance. 
+New Engl J Med, 346:564-569 (2002).
+
+
+#		VARIABLE			DESCRIPTION						CODES/VALUES
+
+1		age					Age at diagnosis				in years
+
+2		sex					Gender							F (female)
+															M (male)
+																	
+3		hgb					Hemoglobin						-
+
+4		creat				Creatinine						-
+
+5		mspike				Size of the monoclonal 			-
+							serum splike
+							
+6		ptime				Time until progression to		months
+							a plasma cell malignancy 
+							(PCM) or last contact
+							
+7		pstat				Occurrence of PCM 				0= no
+															1=yes
+															
+8		futime				Time until death				in months 
+							or last contact 
+
+9		status				Occurrence of death 			0= no (censoring) 
+															1= yes

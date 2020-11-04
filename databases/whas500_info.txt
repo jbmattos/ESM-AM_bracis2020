@@ -1,0 +1,82 @@
+
+==== WORCESTER HEART ATTACK STUDY DATASET - Worcester Heart Attack Study (whas500.csv)
+
+data taken from: ftp://ftp.wiley.com/public/sci_tech_med/survival/ ("Second-Edition Data.zip")
+				 (description from link above)
+
+source: Hosmer, D.W. and Lemeshow, S. and May, S. (2008) 
+		Applied Survival Analysis: Regression Modeling of Time to Event Data,
+		Second Edition, John Wiley and Sons Inc., New York, NY
+		(https://www.wiley.com/en-us/Applied+Survival+Analysis%3A+Regression+Modeling+of+Time+to+Event+Data%2C+2nd+Edition-p-9780471754992)
+
+also available: https://github.com/sebp/scikit-survival/blob/master/sksurv/datasets/data/whas500.arff)
+
+
+
+Description of the variables in the WHAS500 dataset shown in Table 1.2
+of Hosmer, D.W. and Lemeshow, S. and May, S. (2008) Applied Survival
+Analysis: Regression Modeling of Time to Event Data: Second Edition,
+John Wiley and Sons Inc., New York, NY
+n = 500
+
+
+#	VARIABLE		DESCRIPTION					CODES/VALUES
+
+1	age             Age at Hospital Admission       Years
+
+2	gender          Gender                          0 = Male, 1 = Female
+
+3	hr              Initial Heart Rate              beats per minute
+
+4	sysbp           Initial Systolic Blood          mmHg
+                    Pressure
+
+5	diasbp          Initial Diastolic Blood         mmHg
+                    Pressure
+
+6	bmi             Body Mass Index                 kg/m^2
+
+7	cvd				History of Cardiovascular       0 = No
+                    Disease							1 = Yes
+
+8	afb             Atrial Fibrillation             0 = No
+													1 = Yes
+
+9	sho             Cardiogenic Shock               0 = No
+													1 = Yes
+
+10	chf             Congestive Heart                0 = No
+                    Complications					1 = Yes
+
+11	av3             Complete Heart Block            0 = No
+													1 = Yes
+
+12	miord           MI Order                        0 = First
+													1 = Recurrent
+
+13	mitype          MI Type                         0 = non Q-wave
+													1 = Q-wave
+
+14	year            Cohort Year                     1 = 1997
+													2 = 1999
+													3 = 2001
+
+15	admit-date		Hospital Admission Date         mm/dd/yyyy
+
+16	dis-date		Hospital Discharge Date         mm/dd/yyyy
+
+17	fdate			Date of last Follow Up          mm/dd/yyyy
+
+18	los				Length of Hospital Stay         in days
+                    (time between hospital
+					admission and discharge)
+													
+19	dstat			Discharge Status from           0 = Alive
+                    Hospital						1 = Dead
+
+20	lenfol			Total Length of Follow-up       in days
+                    (time between date of last
+					follow-up and hospital admission)
+
+21	fstat			Vital Status at Last            0 = Alive
+                    Follow-up						1 = Dead

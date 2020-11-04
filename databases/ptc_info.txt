@@ -1,0 +1,28 @@
+
+==== PAPILLARY THYROID CARCINOMA DATASET (ptc.csv)
+
+data taken from: http://www.cbioportal.org/study/clinicalData?id=thca_tcga_pub
+
+source: Network CGAR, et al. 
+		Integrated genomic characterization of papillary thyroid carcinoma.
+		Cell. 2014;159(3):676–90
+		(https://www.sciencedirect.com/science/article/pii/S0092867414012380#sec2)
+		
+
+
+The data dowloaded consists of two tables: (1) data_clinical_patient, and (2) data_clinical_sample.
+The file "ptc-database-unified.xlsx" imports both tables and merges them into a single one. 
+It also provides a table compiling the 66 variables on the PTC resultant database and their descriptions.
+The dataset from the .cvs file was extracted from the .xlsx PTC resultant database.
+Event: desease Recurred/Progressed
+
+
+Meta data clinical-patient table:
+cancer_study_identifier: thca_tcga_pub
+genetic_alteration_type: CLINICAL
+datatype: PATIENT_ATTRIBUTES
+
+Meta data clinical-sample table:
+cancer_study_identifier: thca_tcga_pub
+genetic_alteration_type: CLINICAL
+datatype: SAMPLE_ATTRIBUTES

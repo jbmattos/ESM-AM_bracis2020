@@ -1,0 +1,65 @@
+
+==== PRIMARY BILIARY CIRRHOSIS (pbc.csv)
+
+data taken from: http://www.stat.rice.edu/~sneeley/STAT553/Datasets/survivaldata.txt
+				 (description taken from link above)
+
+
+
+Data set found in appendix D of Fleming and Harrington, Counting Processes and Survival Analysis, Wiley, 1991.
+The only differences are: 
+- age is in days 
+- status is coded as 0=censored, 1=censored due to liver tx, 2=death 
+- the sex and stage variables are not missing for obs 313-418 
+
+
+#		VARIABLE		DESCRIPTION								CODES/VALUES
+
+1 		survival	 	Time between registration and 			in days
+						earlier death, transplantation, 
+						or study analysis time in July, 1986
+								
+2 		status 			Death indicator							0= censored
+																1= censored due to liver tx
+																2= death
+																	
+3 		drug			Drug used								1= D-penicillamine
+																2= placebo
+																
+4 		age				Age of patient							in days
+
+5 		sex 			Gender									0=male
+																1=female
+																	
+6 		ascites			Presence of ascites 					0=no
+																1=yes
+																	
+7 		hp				Presence of hepatomegaly				0=no
+																1=yes
+																
+8 		spiders			Presence of spiders  					0=no
+																1=yes
+
+9		edema 			Presence of edema 						0 = no edema and no diuretic therapy for edema; 
+																.5 = edema present without diuretics, or edema resolved by diuretics; 
+																1 = edema despite diuretic therapy
+																	
+10 		sb				Serum bilirubin 						in mg/dl
+
+11		sc 				Serum cholesterol 						in mg/dl
+
+12 		albumin			Albumin 								in gm/dl
+ 
+13 		uc				Urine copper 							in ug/day
+
+14 		ap				Alkaline phosphatase					in U/liter
+
+15 		sgot			SGOT									in U/ml
+
+16 		tgl				Triglicerides							in mg/dl
+
+17 		pl		 		Platelets per cubic 					ml / 1000
+
+18 		ptb				Prothrombin 							time in seconds
+
+19		hist-stage		Histologic stage of disease 			{1,2,3,4} 
