@@ -43,7 +43,7 @@ Optional arguments:
 --featEvent FEATEVENT   The name of Survival Status feature  [default: 'survival_status']
 ```
 
-¹ The data files must be in .csv, separated by comma, with the header (features' names) on the first line, and with no rows' names column.
+¹ The data files must be in .csv, separated by comma, with the header (features' names) on the first line, and with no rows' names column.\
 ² The dtypes.json file must be on the same path of the data file, with the same name ended by "_dtypes.json" (e.g., "dataFile.csv" > "dataFile_dtypes.json")
 
 ## Results
