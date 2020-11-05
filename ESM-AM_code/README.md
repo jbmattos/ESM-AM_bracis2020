@@ -42,9 +42,11 @@ Optional arguments:
 --featTime FEATTIME     The name of Survival Time feature  [default: 'survival_time']
 --featEvent FEATEVENT   The name of Survival Status feature  [default: 'survival_status']
 ```
-
+\
 ¹ The data files must be in .csv, separated by comma, with the header (features' names) on the first line, and with no rows' names column.\
-² The dtypes.json file must be on the same path of the data file, with the same name ended by "_dtypes.json" (e.g., "dataFile.csv" > "dataFile_dtypes.json")
+² The dtypes.json file must be on the same path of the data file, with the same name ended by "_dtypes.json" (e.g., "dataFile.csv" > "dataFile_dtypes.json")\
+\
+**OBS.:** The algorithm only copes with _categorical_ features. Therefore, numerical data sets should be previously discretized. Admore, it is indicated the use of dtypes.json file with: featTime [int|float], featEvent [bool], and other features [category].
 
 ## Results
 The algorithm provides three results' files:
