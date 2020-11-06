@@ -1,0 +1,8 @@
+> Average survival on dataset: 2152.8
+DISCOVERED RULES:
+R0: IF <ulceration = True> THAN <average_survival = 1817.8111> (num-cases=90/205; p-value=5.4128797222219305e-08; fitness=0.9999999458712028)
+R1: IF <sex = man> THAN <average_survival = 1945.7089> (num-cases=79/205; p-value=0.010983549936573911; fitness=0.9890164500634261)
+R2: IF <age = [72.51,95.00]> THAN <average_survival = 1456.7368> (num-cases=19/205; p-value=0.0054743322096710845; fitness=0.9945256677903289)
+R3: IF <tumor-th = [0.10,2.38)> THAN <average_survival = 2370.8992> (num-cases=119/205; p-value=8.561200984802397e-07; fitness=0.9999991438799015)
+R4: IF <tumor-th = [2.38,5.31)> THAN <average_survival = 1885.8070> (num-cases=57/205; p-value=0.00020734481153039663; fitness=0.9997926551884696)
+R5: IF <ulceration = False> THAN <average_survival = 2414.9652> (num-cases=115/205; p-value=5.4128797222219305e-08; fitness=0.9999999458712028)

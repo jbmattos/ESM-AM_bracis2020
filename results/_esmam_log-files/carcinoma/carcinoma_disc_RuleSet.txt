@@ -1,0 +1,12 @@
+> Average survival on dataset: 561.259067357513
+DISCOVERED RULES:
+R0: IF <condition = 2.0> THAN <average_survival = 322.2791> (num-cases=43/193; p-value=4.3335584121173554e-08; fitness=0.9999999566644159)
+R1: IF <age = [51.83,62.82)> AND <condition = 2.0> THAN <average_survival = 198.8462> (num-cases=13/193; p-value=9.965087754970625e-09; fitness=0.9999999900349122)
+R2: IF <age = [51.83,62.82)> AND <t-staging = 4> THAN <average_survival = 334.3750> (num-cases=24/193; p-value=0.0013122539920624732; fitness=0.9986877460079375)
+R3: IF <t-staging = 4> THAN <average_survival = 425.7424> (num-cases=66/193; p-value=0.0020196783736290413; fitness=0.997980321626371)
+R4: IF <condition = 1.0> THAN <average_survival = 653.1056> (num-cases=142/193; p-value=1.2634948642897825e-10; fitness=0.9999999998736505)
+R5: IF <grade = 2.0> AND <n-staging = 3> THAN <average_survival = 436.5510> (num-cases=49/193; p-value=0.0023859303903369655; fitness=0.997614069609663)
+R6: IF <n-staging = 3> THAN <average_survival = 463.8427> (num-cases=89/193; p-value=0.003281904225656329; fitness=0.9967180957743437)
+R7: IF <grade = 2.0> AND <treatment = test> THAN <average_survival = 460.6207> (num-cases=58/193; p-value=0.04363853349142888; fitness=0.9563614665085711)
+R8: IF <site = 1> AND <n-staging = 3> AND <sex = male> THAN <average_survival = 305.8500> (num-cases=20/193; p-value=0.000298874331183141; fitness=0.9997011256688169)
+R9: IF <t-staging = 4> AND <age = [51.83,62.82)> AND <treatment = test> THAN <average_survival = 229.4167> (num-cases=12/193; p-value=9.001006183728677e-06; fitness=0.9999909989938163)

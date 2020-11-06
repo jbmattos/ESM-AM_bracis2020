@@ -1,0 +1,16 @@
+> Average survival on dataset: 1124.4897959183672
+DISCOVERED RULES:
+R0: IF <pnodes = [13.21,26.08)> AND <tgrade = III> THAN <average_survival = 409.8571> (num-cases=14/686; p-value=1.5878631742793914e-11; fitness=0.9999999999841214)
+R1: IF <pnodes = [13.21,26.08)> THAN <average_survival = 665.1538> (num-cases=39/686; p-value=1.0313061515887512e-10; fitness=0.9999999998968694)
+R2: IF <pnodes = [13.21,26.08)> AND <tgrade = III> AND <estrec = [0.00,81.10)> THAN <average_survival = 349.4167> (num-cases=12/686; p-value=1.5877299475164364e-12; fitness=0.9999999999984123)
+R3: IF <pnodes = [13.21,26.08)> AND <progrec = [0.00,172.53)> THAN <average_survival = 607.1765> (num-cases=34/686; p-value=2.76667577736589e-13; fitness=0.9999999999997233)
+R4: IF <estrec = [0.00,81.10)> AND <pnodes = [13.21,26.08)> THAN <average_survival = 602.2500> (num-cases=32/686; p-value=2.2356561046876777e-12; fitness=0.9999999999977643)
+R5: IF <pnodes = [5.46,13.21)> THAN <average_survival = 923.4192> (num-cases=167/686; p-value=5.710982164952583e-08; fitness=0.9999999428901784)
+R6: IF <pnodes = [1.00,5.46)> THAN <average_survival = 1237.9557> (num-cases=474/686; p-value=5.551115123125783e-16; fitness=0.9999999999999994)
+R7: IF <pnodes = [13.21,26.08)> AND <estrec = [0.00,81.10)> AND <progrec = [0.00,172.53)> THAN <average_survival = 567.0000> (num-cases=30/686; p-value=1.2390088954816747e-13; fitness=0.9999999999998761)
+R8: IF <pnodes = [5.46,13.21)> AND <estrec = [0.00,81.10)> AND <horTh = no> THAN <average_survival = 795.2593> (num-cases=81/686; p-value=2.6147528586761837e-11; fitness=0.9999999999738525)
+R9: IF <pnodes = [5.46,13.21)> AND <progrec = [0.00,172.53)> THAN <average_survival = 872.8929> (num-cases=140/686; p-value=1.6787049528232956e-09; fitness=0.999999998321295)
+R10: IF <tsize = [62.30,88.93)> THAN <average_survival = 751.6667> (num-cases=15/686; p-value=0.0011491145531249414; fitness=0.9988508854468751)
+R11: IF <tgrade = I> THAN <average_survival = 1331.7901> (num-cases=81/686; p-value=5.82539642227653e-05; fitness=0.9999417460357772)
+R12: IF <pnodes = [5.46,13.21)> AND <estrec = [0.00,81.10)> THAN <average_survival = 858.7177> (num-cases=124/686; p-value=1.0329881394710583e-10; fitness=0.9999999998967012)
+R13: IF <progrec = [0.00,172.53)> THAN <average_survival = 1077.9368> (num-cases=554/686; p-value=4.9340609742265507e-05; fitness=0.9999506593902577)

@@ -1,0 +1,11 @@
+> Average survival on dataset: 230.18331885317116
+DISCOVERED RULES:
+R0: IF <cd4 = [0.00,45.58)> AND <strat2 = 0> AND <txgrp = 1> THAN <average_survival = 220.5816> (num-cases=196/1151; p-value=5.117017920497346e-13; fitness=0.9999999999994883)
+R1: IF <cd4 = [0.00,45.58)> AND <txgrp = 1> THAN <average_survival = 222.8995> (num-cases=219/1151; p-value=3.573463747130745e-11; fitness=0.9999999999642654)
+R2: IF <txgrp = 1> AND <strat2 = 0> THAN <average_survival = 217.3516> (num-cases=219/1151; p-value=2.1465051958102777e-12; fitness=0.9999999999978535)
+R3: IF <strat2 = 0> AND <cd4 = [0.00,45.58)> AND <age = [30.66,38.14)> AND <txgrp = 1> THAN <average_survival = 213.0000> (num-cases=72/1151; p-value=5.4067861299245124e-14; fitness=0.9999999999999459)
+R4: IF <strat2 = 0> AND <cd4 = [0.00,45.58)> AND <tx = 0> THAN <average_survival = 219.7005> (num-cases=197/1151; p-value=5.594413821086164e-13; fitness=0.9999999999994406)
+R5: IF <strat2 = 0> AND <cd4 = [0.00,45.58)> THAN <average_survival = 228.4987> (num-cases=391/1151; p-value=2.9063751405544735e-11; fitness=0.9999999999709362)
+R6: IF <strat2 = 0> AND <tx = 0> THAN <average_survival = 216.5773> (num-cases=220/1151; p-value=2.3241408797503027e-12; fitness=0.9999999999976759)
+R7: IF <strat2 = 0> THAN <average_survival = 226.9362> (num-cases=439/1151; p-value=6.842415523067302e-11; fitness=0.9999999999315758)
+R8: IF <strat2 = 1> THAN <average_survival = 232.1854> (num-cases=712/1151; p-value=6.842415523067302e-11; fitness=0.9999999999315758)

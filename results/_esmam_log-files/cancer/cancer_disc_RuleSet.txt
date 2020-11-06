@@ -1,0 +1,13 @@
+> Average survival on dataset: 310.04761904761904
+DISCOVERED RULES:
+R0: IF <ph-karno = [64.00,75.00)> AND <wt-loss = [8.17,22.40)> THAN <average_survival = 171.0909> (num-cases=11/168; p-value=4.9428445804466925e-05; fitness=0.9999505715541955)
+R1: IF <age = [71.39,82.00]> AND <ph-ecog = 2.0> THAN <average_survival = 184.3684> (num-cases=19/168; p-value=0.0006218502612407306; fitness=0.9993781497387593)
+R2: IF <ph-ecog = 2.0> AND <age = [71.39,82.00]> AND <sex = 1> THAN <average_survival = 80.7000> (num-cases=10/168; p-value=9.769962616701378e-15; fitness=0.9999999999999902)
+R3: IF <ph-ecog = 2.0> THAN <average_survival = 232.5128> (num-cases=39/168; p-value=0.0006683644783060938; fitness=0.9993316355216939)
+R4: IF <sex = 1> AND <ph-karno = [64.00,75.00)> THAN <average_survival = 196.2941> (num-cases=17/168; p-value=0.00019063176734268605; fitness=0.9998093682326573)
+R5: IF <age = [71.39,82.00]> AND <pat-karno = [57.83,72.83)> AND <sex = 1> THAN <average_survival = 148.4545> (num-cases=11/168; p-value=5.201440209989805e-05; fitness=0.9999479855979001)
+R6: IF <wt-loss = [-5.97,8.17)> AND <sex = 1> AND <pat-karno = [57.83,72.83)> THAN <average_survival = 188.6154> (num-cases=13/168; p-value=0.0004620625490565633; fitness=0.9995379374509434)
+R7: IF <meal-cal = [96.00,694.95)> AND <wt-loss = [8.17,22.40)> THAN <average_survival = 183.5000> (num-cases=14/168; p-value=0.0003466393730572337; fitness=0.9996533606269428)
+R8: IF <sex = 1> THAN <average_survival = 291.5096> (num-cases=104/168; p-value=0.013101877954020513; fitness=0.9868981220459795)
+R9: IF <pat-karno = [57.83,72.83)> THAN <average_survival = 263.7358> (num-cases=53/168; p-value=0.011037397904214874; fitness=0.9889626020957851)
+R10: IF <pat-karno = [57.83,72.83)> AND <age = [71.39,82.00]> THAN <average_survival = 187.1765> (num-cases=17/168; p-value=0.0016846074239020847; fitness=0.9983153925760979)

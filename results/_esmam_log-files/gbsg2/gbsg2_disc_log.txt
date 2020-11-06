@@ -1,0 +1,16 @@
+
+
+====== ESMAM PARAMETERS ======
+Number of ants: 3000
+Number of minimum cases per rule: 10
+Number of maximum uncovered cases: 0
+Number of rules for convergence: 10
+Alpha value for LogRank confidence: 0.05
+
+====== RUN INFO ======
+Database path: D:\Code Development\AntMinerSA_Algorithm\datasets_surval\db_Bracis\gbsg2_disc.csv
+Instances: 686
+Attributes: 8
+# discovered rules: 14
+remaining uncovered cases (%): 0.0
+>run-time: 0:00:44.077121

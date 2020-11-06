@@ -1,0 +1,12 @@
+> Average survival on dataset: 121.62773722627738
+DISCOVERED RULES:
+R0: IF <karno = [27.04,45.96)> AND <pt = yes> THAN <average_survival = 23.5455> (num-cases=11/137; p-value=1.2094244528082498e-07; fitness=0.9999998790575547)
+R1: IF <karno = [27.04,45.96)> THAN <average_survival = 45.9000> (num-cases=30/137; p-value=6.821400105883058e-07; fitness=0.9999993178599894)
+R2: IF <karno = [27.04,45.96)> AND <treat = test> THAN <average_survival = 28.6667> (num-cases=15/137; p-value=1.9318184418803952e-07; fitness=0.9999998068181558)
+R3: IF <cell-type = small> AND <mfd = [1.00,8.18)> THAN <average_survival = 58.5758> (num-cases=33/137; p-value=0.0005009947141424442; fitness=0.9994990052858576)
+R4: IF <cell-type = small> THAN <average_survival = 71.6667> (num-cases=48/137; p-value=0.0014024996707103776; fitness=0.9985975003292896)
+R5: IF <age = [34.00,45.60)> AND <treat = test> THAN <average_survival = 34.3000> (num-cases=10/137; p-value=0.002131818913372774; fitness=0.9978681810866272)
+R6: IF <treat = test> AND <cell-type = small> THAN <average_survival = 47.1667> (num-cases=18/137; p-value=0.0007377624291413643; fitness=0.9992622375708586)
+R7: IF <cell-type = adeno> THAN <average_survival = 64.1111> (num-cases=27/137; p-value=0.00420761877506437; fitness=0.9957923812249356)
+R8: IF <treat = test> AND <cell-type = aquamous> THAN <average_survival = 260.3000> (num-cases=20/137; p-value=0.0007882850331738522; fitness=0.9992117149668261)
+R9: IF <cell-type = aquamous> THAN <average_survival = 200.2000> (num-cases=35/137; p-value=0.0011736810545800447; fitness=0.99882631894542)

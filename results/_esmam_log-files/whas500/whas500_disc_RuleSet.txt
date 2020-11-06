@@ -1,0 +1,5 @@
+> Average survival on dataset: 882.436
+DISCOVERED RULES:
+R0: IF <age = [85.04,104.00]> THAN <average_survival = 368.0597> (num-cases=67/500; p-value=0.0; fitness=1.0)
+R1: IF <chf = True> THAN <average_survival = 593.5935> (num-cases=155/500; p-value=0.0; fitness=1.0)
+R2: IF <chf = False> THAN <average_survival = 1012.2058> (num-cases=345/500; p-value=0.0; fitness=1.0)

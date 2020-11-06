@@ -1,0 +1,15 @@
+> Average survival on dataset: 5390.130681818182
+DISCOVERED RULES:
+R0: IF <alb = [1.80,2.54)> AND <sex = male> THAN <average_survival = 1345.6000> (num-cases=10/176; p-value=1.7862145096358972e-10; fitness=0.9999999998213785)
+R1: IF <age = [76.06,87.00]> THAN <average_survival = 2263.2727> (num-cases=22/176; p-value=1.1787676390540014e-09; fitness=0.9999999988212324)
+R2: IF <age = [65.82,76.06)> THAN <average_survival = 3969.6545> (num-cases=55/176; p-value=1.4873009007709825e-05; fitness=0.9999851269909923)
+R3: IF <alb = [1.80,2.54)> THAN <average_survival = 2651.2308> (num-cases=13/176; p-value=0.0007239384189184905; fitness=0.9992760615810815)
+R4: IF <age = [76.06,87.00]> AND <dxyr = [66.54,69.20)> THAN <average_survival = 1103.0000> (num-cases=13/176; p-value=0.0; fitness=1.0)
+R5: IF <age = [44.59,55.93)> THAN <average_survival = 7558.1429> (num-cases=42/176; p-value=0.00045589995204364797; fitness=0.9995441000479564)
+R6: IF <hgb = [9.40,11.59)> AND <creat = [1.20,6.40]> THAN <average_survival = 2390.0000> (num-cases=10/176; p-value=0.0003270297229456265; fitness=0.9996729702770544)
+R7: IF <dxyr = [66.54,69.20)> AND <alb = [1.80,2.54)> THAN <average_survival = 2327.2727> (num-cases=11/176; p-value=0.00028445057817316766; fitness=0.9997155494218268)
+R8: IF <hgb = [9.40,11.59)> AND <mspike = [1.38,1.72)> THAN <average_survival = 2418.6667> (num-cases=12/176; p-value=2.451723614904644e-05; fitness=0.999975482763851)
+R9: IF <sex = male> AND <hgb = [9.40,11.59)> THAN <average_survival = 2408.1333> (num-cases=15/176; p-value=0.00039483411620910847; fitness=0.9996051658837909)
+R10: IF <hgb = [9.40,11.59)> THAN <average_survival = 3377.6154> (num-cases=26/176; p-value=0.006314534943783756; fitness=0.9936854650562162)
+R11: IF <hgb = [9.40,11.59)> AND <alb = [2.54,3.15)> THAN <average_survival = 2890.2667> (num-cases=15/176; p-value=0.006221994643896278; fitness=0.9937780053561037)
+R12: IF <pcdx = not-prog> AND <alb = [1.80,2.54)> THAN <average_survival = 2007.5455> (num-cases=11/176; p-value=2.1724301567549453e-05; fitness=0.9999782756984325)

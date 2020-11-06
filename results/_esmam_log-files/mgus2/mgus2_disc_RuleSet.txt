@@ -1,0 +1,8 @@
+> Average survival on dataset: 94.77952167414051
+DISCOVERED RULES:
+R0: IF <creat = [1.40,22.00]> THAN <average_survival = 66.8204> (num-cases=284/1338; p-value=0.0; fitness=1.0)
+R1: IF <ptime = [161.51,235.00)> THAN <average_survival = 193.5143> (num-cases=175/1338; p-value=0.0; fitness=1.0)
+R2: IF <ptime = [235.00,424.00]> THAN <average_survival = 278.9434> (num-cases=53/1338; p-value=0.0; fitness=1.0)
+R3: IF <ptime = [1.00,48.21)> THAN <average_survival = 22.4809> (num-cases=418/1338; p-value=0.0; fitness=1.0)
+R4: IF <age = [79.51,96.00]> THAN <average_survival = 57.4251> (num-cases=327/1338; p-value=0.0; fitness=1.0)
+R5: IF <hgb = [9.96,11.97)> AND <pstat = False> THAN <average_survival = 62.6142> (num-cases=197/1338; p-value=0.0; fitness=1.0)

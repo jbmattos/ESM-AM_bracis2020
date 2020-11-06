@@ -1,0 +1,17 @@
+> Average survival on dataset: 241.56521739130434
+DISCOVERED RULES:
+R0: IF <los = [3.00,58.30)> THAN <average_survival = 125.8736> (num-cases=182/575; p-value=0.0; fitness=1.0)
+R1: IF <los = [130.01,207.45)> THAN <average_survival = 361.9008> (num-cases=131/575; p-value=4.386602192596456e-12; fitness=0.9999999999956134)
+R2: IF <los = [303.90,400.00]> THAN <average_survival = 475.1000> (num-cases=20/575; p-value=0.0002534421315223412; fitness=0.9997465578684777)
+R3: IF <ivhx = 3> AND <ndrugtx = [4.42,12.15)> THAN <average_survival = 177.2979> (num-cases=94/575; p-value=0.00014434683323505393; fitness=0.999855653166765)
+R4: IF <ndrugtx = [0.00,4.42)> THAN <average_survival = 265.5438> (num-cases=377/575; p-value=1.590201154499926e-05; fitness=0.999984097988455)
+R5: IF <ivhx = 3> AND <ndrugtx = [4.42,12.15)> AND <treatment = 0> THAN <average_survival = 159.0667> (num-cases=60/575; p-value=9.417734475836159e-05; fitness=0.9999058226552416)
+R6: IF <los = [3.00,58.30)> AND <race = 0> AND <hercoc = 2> AND <ndrugtx = [4.42,12.15)> THAN <average_survival = 42.2000> (num-cases=10/575; p-value=1.219024881038422e-13; fitness=0.9999999999998781)
+R7: IF <treatment = 0> AND <beck = [11.68,20.44)> AND <ndrugtx = [4.42,12.15)> THAN <average_survival = 119.6667> (num-cases=27/575; p-value=2.0351021341014075e-05; fitness=0.999979648978659)
+R8: IF <ndrugtx = [4.42,12.15)> AND <race = 0> THAN <average_survival = 182.7087> (num-cases=127/575; p-value=2.3324369903710007e-05; fitness=0.9999766756300963)
+R9: IF <treatment = 0> AND <ivhx = 3> THAN <average_survival = 187.2652> (num-cases=132/575; p-value=0.00012735307731548406; fitness=0.9998726469226845)
+R10: IF <ndrugtx = [4.42,12.15)> AND <treatment = 0> THAN <average_survival = 176.1596> (num-cases=94/575; p-value=0.0001505216519541719; fitness=0.9998494783480458)
+R11: IF <ndrugtx = [4.42,12.15)> AND <beck = [11.68,20.44)> THAN <average_survival = 158.0600> (num-cases=50/575; p-value=0.0001784772205555285; fitness=0.9998215227794445)
+R12: IF <ivhx = 3> AND <race = 0> THAN <average_survival = 196.4314> (num-cases=204/575; p-value=2.197158224703788e-05; fitness=0.999978028417753)
+R13: IF <race = 0> AND <treatment = 0> THAN <average_survival = 201.6239> (num-cases=226/575; p-value=0.0001524879399114054; fitness=0.9998475120600886)
+R14: IF <race = 0> AND <site = 0> THAN <average_survival = 212.6276> (num-cases=290/575; p-value=0.0001163606896046332; fitness=0.9998836393103954)

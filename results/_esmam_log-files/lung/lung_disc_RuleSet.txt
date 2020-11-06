@@ -1,0 +1,11 @@
+> Average survival on dataset: 1145.3518312985573
+DISCOVERED RULES:
+R0: IF <stage-3 = 2.0> THAN <average_survival = 864.4324> (num-cases=296/901; p-value=0.0; fitness=1.0)
+R1: IF <stage-4 = 1.0> THAN <average_survival = 775.6541> (num-cases=185/901; p-value=0.0; fitness=1.0)
+R2: IF <stage-1 = 3.0> THAN <average_survival = 835.7963> (num-cases=437/901; p-value=0.0; fitness=1.0)
+R3: IF <op = False> THAN <average_survival = 800.7101> (num-cases=376/901; p-value=0.0; fitness=1.0)
+R4: IF <stage-2 = 3.0> THAN <average_survival = 778.6000> (num-cases=170/901; p-value=0.0; fitness=1.0)
+R5: IF <cell-type = 3.0> THAN <average_survival = 797.6351> (num-cases=148/901; p-value=0.0; fitness=1.0)
+R6: IF <stage-1 = 1.0> THAN <average_survival = 1523.1728> (num-cases=353/901; p-value=0.0; fitness=1.0)
+R7: IF <stage-2 = 1.0> THAN <average_survival = 1415.9176> (num-cases=364/901; p-value=0.0; fitness=1.0)
+R8: IF <op = True> THAN <average_survival = 1392.1810> (num-cases=525/901; p-value=0.0; fitness=1.0)

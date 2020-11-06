@@ -1,0 +1,6 @@
+> Average survival on dataset: 25.5901294498382
+DISCOVERED RULES:
+R0: IF <TUMOR_STATUS = TUMOR FREE> THAN <average_survival = 25.9983> (num-cases=284/309; p-value=0.0; fitness=1.0)
+R1: IF <PATH_N_STAGE = N1b> AND <HISTOLOGICAL_TYPE = Classical> THAN <average_survival = 13.4430> (num-cases=30/309; p-value=1.8326513434807623e-05; fitness=0.9999816734865652)
+R2: IF <PATH_N_STAGE = N1b> AND <WGS_STATUS = No> THAN <average_survival = 14.3265> (num-cases=37/309; p-value=0.0007664557000045535; fitness=0.9992335442999954)
+R3: IF <TUMOR_STATUS = WITH TUMOR> THAN <average_survival = 20.9536> (num-cases=25/309; p-value=0.0; fitness=1.0)

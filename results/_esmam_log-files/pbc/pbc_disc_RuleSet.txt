@@ -1,0 +1,13 @@
+> Average survival on dataset: 1979.1666666666667
+DISCOVERED RULES:
+R0: IF <ascites = yes> THAN <average_survival = 633.7895> (num-cases=19/276; p-value=0.0; fitness=1.0)
+R1: IF <hp = yes> AND <uc = [175.20,319.18)> THAN <average_survival = 1106.4815> (num-cases=27/276; p-value=2.6845192735436285e-13; fitness=0.9999999999997315)
+R2: IF <edema = 1.0> THAN <average_survival = 590.7059> (num-cases=17/276; p-value=0.0; fitness=1.0)
+R3: IF <uc = [175.20,319.18)> THAN <average_survival = 1246.0556> (num-cases=36/276; p-value=6.366018823200648e-13; fitness=0.9999999999993634)
+R4: IF <age = [23899.51,28650.00]> THAN <average_survival = 1153.7619> (num-cases=21/276; p-value=6.707196431587903e-08; fitness=0.9999999329280357)
+R5: IF <sb = [9.27,15.52)> THAN <average_survival = 791.1818> (num-cases=11/276; p-value=1.5121459639999557e-11; fitness=0.9999999999848785)
+R6: IF <uc = [175.20,319.18)> AND <ap = [1728.47,4181.59)> THAN <average_survival = 853.2500> (num-cases=16/276; p-value=6.461498003318411e-14; fitness=0.9999999999999354)
+R7: IF <uc = [4.00,86.40)> THAN <average_survival = 2317.0723> (num-cases=166/276; p-value=5.551115123125783e-16; fitness=0.9999999999999994)
+R8: IF <albumin = [2.69,3.17)> AND <hist-stage = 4> THAN <average_survival = 956.0000> (num-cases=22/276; p-value=3.0375701953744283e-13; fitness=0.9999999999996962)
+R9: IF <hist-stage = 4> AND <uc = [175.20,319.18)> THAN <average_survival = 893.5000> (num-cases=18/276; p-value=4.483080573436382e-13; fitness=0.9999999999995517)
+R10: IF <ascites = no> THAN <average_survival = 2078.6304> (num-cases=257/276; p-value=0.0; fitness=1.0)
