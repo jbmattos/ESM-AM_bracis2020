@@ -166,7 +166,7 @@ def calc_IBS(rules, covered_cases, dataset, lifelinesModels, T_FEAT, E_FEAT, PAR
     ibs = 0
     
     if PARALEL:
-        print('> begin ibs ({}) #rules={} [paralel processing]'.format(datetime.now().strftime("%H:%M:%S"), len(rules)))
+        print('> begin ibs ({}) #rules={} [parallel processing]'.format(datetime.now().strftime("%H:%M:%S"), len(rules)))
         args = [{'rule_cases':covered_cases[rule_id], 'dataset':dataset, 'ruleModels':lifelinesModels[rule_id], 'T_FEAT':T_FEAT, 'E_FEAT':E_FEAT} for rule_id in rules.keys()]
         with concurrent.futures.ProcessPoolExecutor(max_workers=CPU) as executor:
             results = [executor.submit(integratedBrierScore, **arg) for arg in args]
@@ -255,11 +255,11 @@ if __name__ == '__main__':
                           help="Recurrent: process results in each (and all) subfolders")
     
     parser.add_argument("--noFigs", action="store_false",
-                        help="Generates the survival models' plots in .pdf format")
+                        help="Do NOT generate the survival models' plots [.pdf format]")
     parser.add_argument("--parlel", action="store_true",
-                        help="Paralel IBS computation: calculates IBS with paralel processing")
+                        help="Parallel IBS computation: calculates IBS with parallel processing")
     parser.add_argument("--cpu", type=int, default=multiprocessing.cpu_count(),
-                        help="Number of paralel cpus [default: os.cpu_count()]")
+                        help="Number of parallel cpus [default: os.cpu_count()]")
     parser.add_argument("--featTime", type=str, default='survival_time',
                         help="Survival Time feature name")
     parser.add_argument("--featEvent", type=str, default='survival_status',
@@ -288,7 +288,7 @@ if __name__ == '__main__':
             
             rule_file_name = glob.glob(subfolder + '/*_RuleSet.txt')[0]
             km_file_name = glob.glob(subfolder + '/*_KM-Estimates.txt')[0]
-            prefix = '_'.join(re.split(r'_', re.split(r'(\\)|(\/)',rule_file_name)[-1])[:-1])
+            prefix = re.split(r'(\\)|(\/)',subfolder)[-1]
             db_path = glob.glob(subfolder + '/*.csv')[0]
             save_path = path + '/{}_esmam-survivalModels.pdf'.format(prefix)
             
